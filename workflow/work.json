@@ -1,0 +1,264 @@
+{
+  "last_node_id": 368,
+  "last_link_id": 494,
+  "nodes": [
+    {
+      "id": 329,
+      "type": "easy showAnything",
+      "pos": [
+        -3054.24072265625,
+        1659.815673828125
+      ],
+      "size": [
+        468.74237060546875,
+        285.0501403808594
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "label": "输入任何",
+          "type": "*",
+          "shape": 7,
+          "link": 490
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "label": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy showAnything",
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 342,
+      "type": "easy showAnything",
+      "pos": [
+        -3044.742919921875,
+        1990.27001953125
+      ],
+      "size": [
+        468.74237060546875,
+        285.0501403808594
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "label": "输入任何",
+          "type": "*",
+          "shape": 7,
+          "link": 491
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "label": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy showAnything",
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "0"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 368,
+      "type": "easy showAnything",
+      "pos": [
+        -3044.388427734375,
+        2320.8623046875
+      ],
+      "size": [
+        468.74237060546875,
+        285.0501403808594
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "label": "输入任何",
+          "type": "*",
+          "shape": 7,
+          "link": 492
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "label": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy showAnything",
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "21"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 367,
+      "type": "MultiTextLoader",
+      "pos": [
+        -3638.96337890625,
+        1818.798583984375
+      ],
+      "size": [
+        481.9922180175781,
+        450.3727111816406
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "text_output",
+          "label": "text_output",
+          "type": "STRING",
+          "links": [
+            490
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "line_count",
+          "label": "line_count",
+          "type": "INT",
+          "links": [
+            491
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "new_seed",
+          "label": "new_seed",
+          "type": "INT",
+          "links": [
+            492
+          ],
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "MultiTextLoader",
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        "",
+        true,
+        "C:\\Users\\Administrator\\Desktop\\03\\33",
+        "新建文本文档",
+        true,
+        21,
+        "increment",
+        [
+          false,
+          true
+        ]
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    }
+  ],
+  "links": [
+    [
+      470,
+      331,
+      0,
+      328,
+      0,
+      "*"
+    ],
+    [
+      490,
+      367,
+      0,
+      329,
+      0,
+      "*"
+    ],
+    [
+      491,
+      367,
+      1,
+      342,
+      0,
+      "*"
+    ],
+    [
+      492,
+      367,
+      2,
+      368,
+      0,
+      "*"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.9646149645000014,
+      "offset": {
+        "0": 3955.791748046875,
+        "1": -1599.64208984375
+      }
+    },
+    "ue_links": [],
+    "groupNodes": {},
+    "node_versions": {
+      "ComfyUI-Easy-Use": "aadbb0b38945eba3e15be6099a7f4e5c0327c175"
+    },
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
