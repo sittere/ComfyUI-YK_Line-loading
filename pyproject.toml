@@ -1,0 +1,14 @@
+[project]
+name = "yk_line-loading"
+description = "Plugin that implements world automatic typesetting and outputs only one paragraph of text"
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/sittere/ComfyUI-YK_Line-loading"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-YK_Line-loading"
+Icon = ""
